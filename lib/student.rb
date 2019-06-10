@@ -6,7 +6,7 @@ class Student < User
 
  def initialize(students)
    @students = students
-   @knowledge << self
+   @knowledge = []
  end
    
 end
